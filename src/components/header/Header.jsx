@@ -17,7 +17,7 @@ function Header() {
             to="/"
             className="text-decoration-none d-flex align-items-center"
           >
-            <img src="/src/assets/tv-box.svg" alt="Tv Box" />
+            <img src="./src/assets/tv-box.svg" alt="Tv Box" />
             <span className="fs-4 fw-medium ms-3 text-white">MovieBox</span>
           </Link>
         </Navbar.Brand>
