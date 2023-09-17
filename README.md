@@ -6,10 +6,10 @@
 
 <p>1. Before you begin ensure you have Node.js and npm installed on your machine.</p>
 
-<p>2. git clone</p>
+<p>2. Navigate to your desire directory open folder with git or with vs code(for it open terminal in vs code) and run following command</p>
 
 ```
-https://github.com/GreyyDaze/movie-discovery-app.git
+git clone  https://github.com/GreyyDaze/movie-discovery-app.git
 ```
 
 <p>3. Navigate to the Project Directory</p>
@@ -24,19 +24,19 @@ cd your-project
 npm install
 ```
 
-<p>5. install react bootstrap</p>
+<p>5. Install react bootstrap</p>
 
 ```
 npm install react-bootstrap bootstrap
 ```
 
-<p>6. install react loader spinner</p>
+<p>6. Install react loader spinner</p>
 
 ```
 npm i react-loader-spinner
 ```
 
-<p>7. install react router dom</p>
+<p>7. Install react router dom</p>
 
 ```
 npm i react-router-dom
