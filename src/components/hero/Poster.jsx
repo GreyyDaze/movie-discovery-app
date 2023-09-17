@@ -1,7 +1,7 @@
 import React from "react";
 import "./Poster.css";
 
-function Poster({ movies}) {
+function Poster({ movies }) {
   const movieName = "Talk to Me";
   let imagePath, rating, overview;
 
@@ -35,7 +35,8 @@ function Poster({ movies}) {
             <h6>{rating}.0 / 100 </h6>
           </span>
           <span className="posterImage__percentage">
-            <img src="/src/assets/tomatoe.svg" alt="Tomato" />
+              <img src="/src/assets/tomatoes.svg" alt="" />
+
             <h6>{rating}%</h6>
           </span>
         </div>
