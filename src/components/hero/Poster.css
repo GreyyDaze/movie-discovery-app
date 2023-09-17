@@ -1,0 +1,78 @@
+.moviePoster {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 100vh;
+}
+
+.posterImage {
+    grid-area: 1 / 1 /4 /5;
+}
+
+.posterImage img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.posterImage__overlay{
+    grid-area: 2 / 1 / 4 /5 ;
+}
+
+.posterImage__rating{
+    display: flex;
+    align-items: start;
+    column-gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.posterImage__fraction{
+    display: flex;
+    column-gap: .98rem;
+    padding-top: .5rem;
+}
+
+.posterImage__fraction img {
+    height: fit-content;
+}
+
+.posterImage__percentage {
+    display: flex;
+    column-gap: .98rem;
+}
+
+.posterImage__percentage h6{
+   padding-top: .5rem;
+}
+
+.posterImage__description{
+    margin-bottom: 1.5rem;
+}
+.posterImage__description p{
+   width: 39ch;
+   line-height: 1.42rem;
+}
+
+.posterImage__watch-btn button{
+    padding: .5rem 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.posterImage__watch-btn button svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: .6rem;
+}
+
+.posterImage__watch-btn button span {
+   text-transform: uppercase;
+   font-size: .9rem;
+}
+
+
+
+
+

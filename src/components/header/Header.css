@@ -1,0 +1,34 @@
+.grid-container-nav {
+    display: grid !important;
+    grid-template-columns: 1fr 47% 1fr;
+    column-gap: 10px;
+    height: 60px;
+}
+
+.grid-item-3{
+    justify-self: end;
+}
+
+.common-style {
+    border: 2px solid white;
+}
+
+.input-style::placeholder {
+    color: white;
+    opacity: 0.85;
+}
+
+@media (max-width: 595px) {
+   .grid-container-nav{
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 30% 40%;
+       row-gap: 25px;
+       height: 110px;
+       padding: .7rem;
+
+   }
+
+   .grid-item-2 {
+        grid-area: 2 /1 / 3 / 3;
+   }
+}
