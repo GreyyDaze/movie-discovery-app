@@ -15,7 +15,7 @@ function MovieList({ movies }) {
         </a>
       </div>
       <div className="list__cards grid-container">
-        {movies.slice(0, 20).map((movie, index) => (
+        {movies.map((movie, index) => (
           <MovieCard movie={movie} key={index}/>
         ))}
       </div>
