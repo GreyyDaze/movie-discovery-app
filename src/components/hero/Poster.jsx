@@ -35,8 +35,7 @@ function Poster({ movies }) {
             <h6>{rating}.0 / 100 </h6>
           </span>
           <span className="posterImage__percentage">
-              <img src="/src/assets/tomatoes.svg" alt="" />
-
+              <img src="/tomatoes.svg" />
             <h6>{rating}%</h6>
           </span>
         </div>
