@@ -64,7 +64,7 @@ function MovieCard({ movie }) {
                       <span className="fw-bold">{rating}.0 / 100</span>
                     </div>
                     <div className="movieCard__percentage">
-                      <img src="/src/assets/tomatoe.svg" alt="Tomato" className="me-3" />
+                    <img src="/tomatoes.svg" alt="Tomato" className="me-3" />
                       <span className="fw-bold">{rating}%</span>
                     </div>
                   </div>
