@@ -1,7 +1,6 @@
 .grid-container-nav {
   display: grid !important;
   grid-template-columns: 1fr 47% 1fr;
-  column-gap: 10px;
   height: 60px;
 }
 
