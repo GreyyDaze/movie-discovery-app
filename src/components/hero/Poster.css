@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 40% 20% 20% 20%;
     grid-template-rows: repeat(3, 1fr);
-    width: 100%;
+    grid-auto-flow: column;
     height: 100vh;
 }
 
