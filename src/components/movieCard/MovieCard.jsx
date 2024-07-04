@@ -8,10 +8,14 @@ function MovieCard({ movie }) {
   const [isLoading, setIsLoading] = useState(true);
 
   const id = movie.id;
-  const posterPath = `https://image.tmdb.org/t/p/original${movie && movie.poster_path}`;
+  const posterPath = `https://image.tmdb.org/t/p/original${
+    movie && movie.poster_path
+  }`;
   const title = movie && movie.original_title;
   const releaseDate = movie && movie.release_date;
-  const rating = (movie && movie.vote_average) *10;
+  const rating = ((movie && movie.vote_average) * 10).toFixed(2);
+
+  console.log(rating);
 
   useEffect(() => {
     setTimeout(() => {
@@ -44,13 +48,23 @@ function MovieCard({ movie }) {
                 variant="top"
                 src={posterPath}
                 className="img-fluid overflow-hidden posterImg"
-                data-testid= "movie-poster"
+                data-testid="movie-poster"
               />
               <Card.Body className="movieCard__body">
-                <Card.Title className="fw-bold lh-base" data-testid="movie-title">{title}</Card.Title>
+                <Card.Title
+                  className="fw-bold lh-base"
+                  data-testid="movie-title"
+                >
+                  {title}
+                </Card.Title>
                 <div className="mt-3">
                   <div className="movieCard__date mb-2">
-                    <span className="text-secondary" data-testid="movie-release-date">{releaseDate}</span>
+                    <span
+                      className="text-secondary"
+                      data-testid="movie-release-date"
+                    >
+                      {releaseDate}
+                    </span>
                   </div>
                   <div className="movieCard__rating d-flex justify-content-between">
                     <div className="movieCard__fraction">
@@ -61,10 +75,10 @@ function MovieCard({ movie }) {
                         alt="IMDB"
                         className="img-fluid me-3"
                       />
-                      <span className="fw-bold">{rating}.0 / 100</span>
+                      <span className="fw-bold">{rating} / 100</span>
                     </div>
                     <div className="movieCard__percentage">
-                    <img src="/tomatoes.svg" alt="Tomato" className="me-3" />
+                      <img src="/tomatoes.svg" alt="Tomato" className="me-3" />
                       <span className="fw-bold">{rating}%</span>
                     </div>
                   </div>

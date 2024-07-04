@@ -2,7 +2,7 @@ import React from "react";
 import "./Poster.css";
 
 function Poster({ movies }) {
-  const movieName = "Talk to Me";
+  const movieName = "Inside Out 2";
   let imagePath, rating, overview;
 
   movies.map((movie) => {
@@ -10,7 +10,7 @@ function Poster({ movies }) {
       imagePath = `https://image.tmdb.org/t/p/original${
         movie && movie.backdrop_path
       }`;
-      rating = movie.vote_average * 10;
+      rating = (movie.vote_average * 10).toFixed(2);
       overview = movie.overview;
     }
   });
@@ -32,15 +32,15 @@ function Poster({ movies }) {
               height="54"
               width="54"
             />
-            <h6>{rating}.0 / 100 </h6>
+            <h6>{rating} / 100 </h6>
           </span>
           <span className="posterImage__percentage">
-              <img src="/tomatoes.svg" />
+            <img src="/tomatoes.svg" />
             <h6>{rating}%</h6>
           </span>
         </div>
         <div className="posterImage__description">
-          <p className="">{overview}</p>
+          <p className="decription">{overview}</p>
         </div>
         <div className="posterImage__watch-btn">
           <button className="btn btn-danger">

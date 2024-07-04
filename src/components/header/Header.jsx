@@ -47,7 +47,7 @@ function Header() {
               </defs>
             </svg>
 
-            <span className="fs-4 fw-medium ms-3 text-white">MovieBox</span>
+            <span className="fs-4 fw-medium ms-3 text-white brand">MovieBox</span>
           </Link>
         </Navbar.Brand>
         <Navbar className="w-100 grid-item-2">

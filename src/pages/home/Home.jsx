@@ -14,13 +14,15 @@ function Home() {
     const res = await fetch(api_url);
     const data = await res.json();
     setMoviesList(data.results);
+    console.log(data);
+
+  
   };
 
   useEffect(() => {
     getMovies();
   }, []);
 
-  
 
   return (
     <>
