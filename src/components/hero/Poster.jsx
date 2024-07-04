@@ -19,6 +19,7 @@ function Poster({ movies }) {
     <section className="moviePoster">
       <div className="posterImage">
         <img src={imagePath} className="img-fluid" />
+        <div class="overlay"></div>
       </div>
       <div className="posterImage__overlay container-lg text-white">
         <div className="posterImage__title">
