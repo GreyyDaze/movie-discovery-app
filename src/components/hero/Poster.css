@@ -3,7 +3,7 @@
   grid-template-columns: 40% 20% 20% 20%;
   grid-template-rows: repeat(3, 1fr);
   grid-auto-flow: column;
-  height: 102vh;
+  height: 104vh;
 }
 
 .posterImage {
