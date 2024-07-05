@@ -78,7 +78,7 @@
 
 @media (max-width: 475px) {
   .moviePoster {
-    height: 95vh;
+    height: 90vh;
   }
   .posterImage img {
     height: 90vh;
