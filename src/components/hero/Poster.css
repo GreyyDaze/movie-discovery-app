@@ -78,14 +78,14 @@
 
 @media (max-width: 475px) {
   .moviePoster {
-    height: 100vh;
+    height: 95vh;
   }
   .posterImage img {
-    height: 100vh;
+    height: 90vh;
   }
 
   .posterImage__description p {
-    width: 27ch;
+    width: 80%;
   }
 }
 @media (max-width: 375px) {
@@ -95,7 +95,7 @@
     margin-bottom: 1rem;
   }
   .posterImage__description p {
-    width: 25ch;
+    width: 77%;
     font-size: 0.9rem;
   }
 
