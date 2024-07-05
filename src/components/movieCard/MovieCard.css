@@ -19,14 +19,14 @@
 
 @media (max-width: 768px) {
   .movieCard {
-    height: 66vh;
+    height: 60vh;
   }
   
 }
 
 @media (max-width: 450px) {
   .movieCard {
-    height: 60vh;
+    height: 50vh;
   }
   
 }
