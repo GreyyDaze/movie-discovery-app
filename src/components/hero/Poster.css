@@ -76,12 +76,16 @@
   font-size: 0.9rem;
 }
 
-@media (max-width:  475px) {
+@media (max-width: 475px) {
   .moviePoster {
     height: 65vh;
   }
   .posterImage img {
     height: 65vh;
+  }
+
+  .posterImage__description p {
+    width: 29ch;
   }
 }
 @media (max-width: 375px) {
@@ -91,12 +95,12 @@
   .posterImage img {
     height: 82vh;
   }
-  
+
   .posterImage__description {
     margin-bottom: 1rem;
   }
   .posterImage__description p {
-    width: 34ch;
+    width: 24ch;
     font-size: 0.9rem;
   }
 
