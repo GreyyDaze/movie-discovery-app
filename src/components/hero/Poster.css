@@ -78,22 +78,22 @@
 
 @media (max-width: 475px) {
   .moviePoster {
-    height: 65vh;
+    height: 80vh;
   }
   .posterImage img {
-    height: 65vh;
+    height: 80vh;
   }
 
   .posterImage__description p {
-    width: 24ch;
+    width: 27ch;
   }
 }
 @media (max-width: 375px) {
   .moviePoster {
-    height: 82vh;
+    height: 90vh;
   }
   .posterImage img {
-    height: 82vh;
+    height: 90vh;
   }
 
   .posterImage__description {
