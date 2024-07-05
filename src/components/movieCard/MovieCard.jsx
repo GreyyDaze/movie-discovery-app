@@ -47,7 +47,7 @@ function MovieCard({ movie }) {
               <Card.Img
                 variant="top"
                 src={posterPath}
-                className="img-fluid overflow-hidden posterImg"
+                className="img-fluid overflow-hidden movieCard__poster"
                 data-testid="movie-poster"
               />
               <Card.Body className="movieCard__body">

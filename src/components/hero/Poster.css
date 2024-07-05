@@ -8,19 +8,17 @@
 
 .posterImage {
   grid-area: 1 / 1 /4 /5;
-  background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.3));
-    
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3));
 }
 
 .posterImage img {
   z-index: -10;
-  opacity: .7;
+  opacity: 0.7;
   height: 104vh;
   width: 100%;
   position: relative;
   object-fit: cover;
   object-position: top;
-  
 }
 
 .posterImage__overlay {
@@ -42,7 +40,6 @@
 
 .posterImage__fraction img {
   height: fit-content;
-  
 }
 
 .posterImage__percentage {
@@ -79,6 +76,10 @@
   font-size: 0.9rem;
 }
 
+@media (max-width: 991px) {
+  .posterImage__description p {
+  }
+}
 @media (max-width: 375px) {
   .posterImage__description {
     margin-bottom: 1rem;
