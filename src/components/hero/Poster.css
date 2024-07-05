@@ -85,7 +85,7 @@
   }
 
   .posterImage__description p {
-    width: 29ch;
+    width: 24ch;
   }
 }
 @media (max-width: 375px) {
@@ -100,7 +100,7 @@
     margin-bottom: 1rem;
   }
   .posterImage__description p {
-    width: 24ch;
+    width: 20ch;
     font-size: 0.9rem;
   }
 
